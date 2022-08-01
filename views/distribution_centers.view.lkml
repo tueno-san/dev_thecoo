@@ -9,20 +9,20 @@ view: distribution_centers {
     sql: ${TABLE}.id ;;
   }
 
-  dimension_group: _partitiondate {
-    type: time
-    timeframes: [
-      raw,
-      date,
-      week,
-      month,
-      quarter,
-      year
-    ]
-    convert_tz: no
-    datatype: date
-    sql: ${TABLE}._PARTITIONDATE ;;
-  }
+  # dimension_group: _partitiondate {
+  #   type: time
+  #   timeframes: [
+  #     raw,
+  #     date,
+  #     week,
+  #     month,
+  #     quarter,
+  #     year
+  #   ]
+  #   convert_tz: no
+  #   datatype: date
+  #   sql: ${TABLE}._PARTITIONDATE ;;
+  # }
 
   dimension_group: _partitiontime {
     type: time
