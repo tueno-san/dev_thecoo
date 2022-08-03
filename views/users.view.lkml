@@ -4,6 +4,7 @@ view: users {
   drill_fields: [id]
 
   dimension: id {
+    hidden: yes
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
