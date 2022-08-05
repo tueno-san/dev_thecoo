@@ -1,4 +1,4 @@
-project_name: "dev"
+project_name: "@{view_name}"
 
 constant: view_name {
   value: "dev"
