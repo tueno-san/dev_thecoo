@@ -1,5 +1,5 @@
 - dashboard: dependency_test
-  title: dependency_test@{view_name}
+  title: dependency_test
   layout: newspaper
   preferred_viewer: dashboards-next
   elements:

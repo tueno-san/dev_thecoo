@@ -4,3 +4,9 @@ constant: view_name {
   value: "dev"
   export: override_required
 }
+constant: dataset_name {
+  value: "thelook"
+}
+constant: user_table_name {
+  value: "users"
+}

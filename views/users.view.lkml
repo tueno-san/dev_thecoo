@@ -1,5 +1,5 @@
 view: users {
-  sql_table_name: `tsutomuueno-looker-training.thelook.users`
+  sql_table_name: `tsutomuueno-looker-training.thelook.@{user_table_name}`
     ;;
   drill_fields: [id]
 
