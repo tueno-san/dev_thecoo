@@ -1,5 +1,5 @@
-- dashboard: dependency_test
-  title: dependency_test
+- dashboard: dependency_project_import
+  title: dependency_prject_import
   layout: newspaper
   preferred_viewer: dashboards-next
   elements:
