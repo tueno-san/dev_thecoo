@@ -5,7 +5,9 @@
   elements:
   - title: 新しいTile
     name: 新しいTile
-    model: thecoo_dev
+    # model: thecoo_dev
+    # model: "@{model_name}"
+    model: "@{model_name}"
     explore: events
     type: looker_grid
     fields: [events.city, events.latitude, events.longitude]

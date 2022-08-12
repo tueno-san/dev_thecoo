@@ -10,3 +10,7 @@ constant: dataset_name {
 constant: user_table_name {
   value: "users"
 }
+
+constant: model_name {
+  value: "thecoo_dev"
+}
