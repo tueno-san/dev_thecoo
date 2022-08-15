@@ -13,8 +13,10 @@ constant: user_table_name {
 
 constant: model_name {
   value: "thecoo_dev"
+  export: override_required
 }
 
 constant: connection_name {
   value: "looker-demo-bigquery"
+  export: override_required
 }
