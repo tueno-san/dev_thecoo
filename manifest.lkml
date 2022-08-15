@@ -14,3 +14,7 @@ constant: user_table_name {
 constant: model_name {
   value: "thecoo_dev"
 }
+
+constant: connection_name {
+  value: "looker-demo-bigquery"
+}
