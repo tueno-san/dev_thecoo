@@ -1,6 +1,6 @@
 connection: "@{connection_name}"
 
-include: "/explores/dev_explores.lkml"
+include: "/explores/dev_explores.explore.lkml"
 # include: "/views/*.view.lkml"                # include all views in the views/ folder in this project
 include: "/*.dashboard"
 include: "*.dashboard"
